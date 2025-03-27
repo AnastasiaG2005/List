@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        MyList myList = new MyList(10);
+        myList.add(10);
+        myList.add(20);
+        myList.add(30);
+
+        System.out.println(myList.get(1)); // 20
+        System.out.println(myList.size()); // 3
+    }
+}
